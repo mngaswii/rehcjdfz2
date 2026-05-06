@@ -1,0 +1,42 @@
+﻿@page
+@model сайт_курсач.Pages.Clients.IndexModel
+
+@{
+    <h2>Clients</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+        </tr>
+
+        @foreach (var client in Model.Clients)
+        {
+            <tr>
+                <td>@client.FirstName</td>
+                <td>@client.Phone</td>
+            </tr>
+        }
+    </table>
+}
+<a asp-page="Create">Create New</a>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var client in Model.Clients)
+    {
+        <tr>
+            <td>@client.FirstName</td>
+            <td>@client.Phone</td>
+            <td>
+                <a asp-page="Details" asp-route-id="@client.Id">Details</a> |
+                <a asp-page="Edit" asp-route-id="@client.Id">Edit</a>
+            </td>
+        </tr>
+    }
+</table>

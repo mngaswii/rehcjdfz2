@@ -1,0 +1,14 @@
+﻿@page
+@model сайт_курсач.Pages.Clients.CreateModel
+
+<h2>Create Client</h2>
+
+<form method="post">
+    <label>Name</label>
+    <input asp-for="Client.FirstName" />
+
+    <label>Phone</label>
+    <input asp-for="Client.Phone" />
+
+    <button type="submit">Save</button>
+</form>
