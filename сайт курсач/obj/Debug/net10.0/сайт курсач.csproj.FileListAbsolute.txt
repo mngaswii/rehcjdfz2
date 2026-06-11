@@ -202,4 +202,4 @@ D:\практика\курсовая\сайт курсач\сайт курсач
 D:\практика\курсовая\сайт курсач\сайт курсач\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\практика\курсовая\сайт курсач\сайт курсач\obj\Debug\net10.0\____ ___.1BA9CA26.Up2Date
 D:\практика\курсовая\сайт курсач\сайт курсач\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
-D:\практика\курсовая\сайт курсач\сайт курсач\obj\Debug\net10.0\compressed\00hs4jxf4b-{0}-9ttfhdpy9m-9ttfhdpy9m.gz
+D:\практика\курсовая\сайт курсач\сайт курсач\obj\Debug\net10.0\compressed\00hs4jxf4b-{0}-4plxkgucyl-4plxkgucyl.gz

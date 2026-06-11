@@ -35,8 +35,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Appointments/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
+[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Appointments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Appointments/Edit.cshtml]
@@ -47,12 +47,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Booking/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Clients/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Clients/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xEZXRhaWxzLmNzaHRtbA==
+[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Clients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Clients/Edit.cshtml]
@@ -91,16 +95,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Payments/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcRGV0YWlscy5jc2h0bWw=
+[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Payments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Payments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Payments/FakePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcRmFrZVBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Payments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Payments/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Privacy.cshtml]
@@ -111,8 +123,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Reports/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xEZXRhaWxzLmNzaHRtbA==
+[D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Reports/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/практика/курсовая/сайт курсач/сайт курсач/Pages/Reports/Edit.cshtml]

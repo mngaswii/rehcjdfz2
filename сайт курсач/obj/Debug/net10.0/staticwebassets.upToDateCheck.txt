@@ -1,5 +1,9 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\booking.jpg
+wwwroot\images\masters.jpg
+wwwroot\images\salon.jpg
+wwwroot\images\services.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -61,6 +65,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\css\site.css
 D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\favicon.ico
 D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\js\site.js
 D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -122,4 +127,3 @@ D:\практика\курсовая\сайт курсач\сайт курсач
 D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\lib\jquery\LICENSE.txt
-D:\практика\курсовая\сайт курсач\сайт курсач\wwwroot\css\site.css

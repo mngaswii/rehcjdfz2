@@ -337,3 +337,66 @@ body {
     border-radius: 12px;
     font-weight: 600;
 }
+.hero-section {
+    background: linear-gradient(135deg, #f8d7e3, #fceef3);
+    border-radius: 30px;
+    padding: 80px 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #222;
+}
+
+.hero-text {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #666;
+}
+
+.hero-buttons {
+    margin-top: 35px;
+}
+
+.hero-btn {
+    background: #d96c8a;
+    color: white;
+    border-radius: 14px;
+    padding: 14px 30px;
+    margin-right: 15px;
+    border: none;
+}
+
+.hero-btn-outline {
+    border: 2px solid #d96c8a;
+    color: #d96c8a;
+    border-radius: 14px;
+    padding: 14px 30px;
+    background: white;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+.custom-table {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+    .custom-table th {
+        background: #fceef3;
+    }
+
+    .custom-table td,
+    .custom-table th {
+        padding: 16px;
+    }

@@ -1,24 +1,17 @@
 ﻿@using Microsoft.AspNetCore.Http
 
-<!DOCTYPE html>
-
 @{
     string currentPage = ViewContext.RouteData.Values["page"]?.ToString() ?? "";
 }
 
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0" />
-
-    <title>
-        @ViewData["Title"] - LOFT Beauty
-    </title>
-
-    <script type="importmap"></script>
+    <title>@ViewData["Title"] - LOFT Beauty</title>
 
     <link rel="stylesheet"
           href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -30,158 +23,119 @@
     <link rel="stylesheet"
           href="~/сайт_курсач.styles.css"
           asp-append-version="true" />
-
 </head>
 
 <body>
 
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
 
-        <nav class="navbar navbar-expand-lg custom-navbar">
+            <a class="navbar-brand"
+               asp-page="/Index">
+                LOFT Beauty
+            </a>
 
-            <div class="container">
+            <div class="collapse navbar-collapse">
 
-                <a class="navbar-brand logo-text"
-                   asp-page="/Index">
+                <ul class="navbar-nav me-auto">
 
-                    LOFT Beauty
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           asp-page="/Index">
+                            Главная
+                        </a>
+                    </li>
 
-                </a>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           asp-page="/Services/Index">
+                            Услуги
+                        </a>
+                    </li>
 
-                <button class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarContent">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           asp-page="/Masters/Index">
+                            Мастера
+                        </a>
+                    </li>
 
-                    <span class="navbar-toggler-icon"></span>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           asp-page="/Booking/Create">
+                            Онлайн запись
+                        </a>
+                    </li>
 
-                </button>
-
-                <div class="collapse navbar-collapse"
-                     id="navbarContent">
-
-                    <ul class="navbar-nav me-auto">
-
+                    @if (Context.Session.GetString("UserRole") == "Admin")
+                    {
                         <li class="nav-item">
-
-                            <a class="nav-link @(currentPage == "/Index" ? "active-link" : "")"
-                               asp-page="/Index">
-
-                                Главная
-
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-
-                            <a class="nav-link @(currentPage.Contains("/Services") ? "active-link" : "")"
-                               asp-page="/Services/Index">
-
-                                Услуги
-
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-
-                            <a class="nav-link @(currentPage.Contains("/Clients") ? "active-link" : "")"
+                            <a class="nav-link"
                                asp-page="/Clients/Index">
-
                                 Клиенты
-
                             </a>
-
                         </li>
 
                         <li class="nav-item">
-
-                            <a class="nav-link @(currentPage.Contains("/Masters") ? "active-link" : "")"
-                               asp-page="/Masters/Index">
-
-                                Мастера
-
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-
-                            <a class="nav-link @(currentPage.Contains("/Appointments") ? "active-link" : "")"
+                            <a class="nav-link"
                                asp-page="/Appointments/Index">
-
                                 Записи
-
                             </a>
-
                         </li>
 
                         <li class="nav-item">
-
-                            <a class="nav-link @(currentPage.Contains("/Reports") ? "active-link" : "")"
-                               asp-page="/Reports/Index">
-
-                                Отчёты
-
+                            <a class="nav-link"
+                               asp-page="/Payments/Index">
+                                Платежи
                             </a>
-
                         </li>
 
-                    </ul>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-page="/Reports/Index">
+                                Отчёты
+                            </a>
+                        </li>
+                    }
 
-                    <ul class="navbar-nav">
+                </ul>
 
-                        @if (Context.Session.GetString("UserLogin") == null)
-                        {
-                            <li class="nav-item">
+                <ul class="navbar-nav">
 
-                                <a class="nav-link login-link"
-                                   asp-page="/Account/Login">
+                    @if (Context.Session.GetString("UserLogin") == null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-page="/Account/Login">
+                                Вход
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <span class="nav-link">
+                                @Context.Session.GetString("UserLogin")
+                            </span>
+                        </li>
 
-                                    Вход
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-page="/Account/Logout">
+                                Выход
+                            </a>
+                        </li>
+                    }
 
-                                </a>
-
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-
-                                <span class="nav-link user-name">
-
-                                    @Context.Session.GetString("UserLogin")
-
-                                </span>
-
-                            </li>
-
-                            <li class="nav-item">
-
-                                <a class="nav-link logout-link"
-                                   asp-page="/Account/Logout">
-
-                                    Выход
-
-                                </a>
-
-                            </li>
-                        }
-
-                    </ul>
-
-                </div>
+                </ul>
 
             </div>
+        </div>
+    </nav>
 
-        </nav>
+    <div class="container mt-4">
 
-    </header>
-
-    <div class="container">
-
-        <main role="main" class="pb-3">
+        <main role="main">
 
             @RenderBody()
 
@@ -189,22 +143,15 @@
 
     </div>
 
-    <footer class="footer-custom mt-5">
-
+    <footer class="border-top footer text-muted mt-5">
         <div class="container">
-
-            © 2026 LOFT Beauty CRM
-
+            © 2026 LOFT Beauty
         </div>
-
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
 
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="~/js/site.js"
-            asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 

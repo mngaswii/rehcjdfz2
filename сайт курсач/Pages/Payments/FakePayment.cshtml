@@ -1,0 +1,42 @@
+﻿@page
+@model сайт_курсач.Pages.Payments.FakePaymentModel
+
+@{
+    ViewData["Title"] = "Оплата";
+}
+
+<div class="container">
+
+    <div class="card shadow p-4 mt-5">
+
+        <h2 class="mb-4">
+            Оплата услуги
+        </h2>
+
+        <p>
+            Номер записи:
+            <strong>@Model.AppointmentId</strong>
+        </p>
+
+        <p>
+            Сумма к оплате:
+            <strong>@Model.Amount ₽</strong>
+        </p>
+
+        <form method="post">
+
+            <input type="hidden"
+                   asp-for="AppointmentId" />
+
+            <button type="submit"
+                    class="btn btn-success">
+
+                Оплатить
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

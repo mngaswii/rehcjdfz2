@@ -19,6 +19,8 @@ namespace сайт_курсач.Pages.Masters
 
         public IActionResult OnGet(int? id)
         {
+            // Проверка Admin
+
             if (HttpContext.Session.GetString("UserRole") != "Admin")
             {
                 return RedirectToPage("/Index");
@@ -41,6 +43,8 @@ namespace сайт_курсач.Pages.Masters
 
         public IActionResult OnPost(int? id)
         {
+            // Проверка Admin
+
             if (HttpContext.Session.GetString("UserRole") != "Admin")
             {
                 return RedirectToPage("/Index");

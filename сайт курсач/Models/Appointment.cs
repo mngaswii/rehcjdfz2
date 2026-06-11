@@ -1,31 +1,21 @@
-﻿namespace сайт_курсач.Models
+﻿using сайт_курсач.Models;
+
+public class Appointment
 {
-    public class Appointment
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        // Клиент
-        public int ClientId { get; set; }
+    public int ClientId { get; set; }
+    public Client Client { get; set; }
 
-        public Client Client { get; set; }
+    public int MasterId { get; set; }
+    public Master Master { get; set; }
 
-        // Мастер
-        public int MasterId { get; set; }
+    public int ServiceId { get; set; }
+    public Service Service { get; set; }
 
-        public Master Master { get; set; }
+    public DateTime AppointmentDate { get; set; } // Start
 
-        // Услуга
-        public int ServiceId { get; set; }
+    public string Status { get; set; }
 
-        public Service Service { get; set; }
-
-        // Дата и время записи
-        public DateTime AppointmentDate { get; set; }
-
-        // Статус записи
-        public string Status { get; set; }
-
-        // Комментарий
-        public string? Notes { get; set; }
-    }
+    public string? Notes { get; set; }
 }

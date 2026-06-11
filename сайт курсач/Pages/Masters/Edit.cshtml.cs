@@ -50,6 +50,8 @@ namespace сайт_курсач.Pages.Masters
 
         public IActionResult OnPost()
         {
+            // Только Admin
+
             if (HttpContext.Session.GetString("UserRole") != "Admin")
             {
                 return RedirectToPage("/Index");

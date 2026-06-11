@@ -17,20 +17,18 @@ namespace сайт_курсач.Pages.Reports
 
         public int MastersCount { get; set; }
 
-        public int ServicesCount { get; set; }
-
         public int AppointmentsCount { get; set; }
+
+        public int PaymentsCount { get; set; }
+
+        public decimal TotalIncome { get; set; }
 
         public IActionResult OnGet()
         {
-            // Проверка входа
-
             if (HttpContext.Session.GetString("UserLogin") == null)
             {
                 return RedirectToPage("/Account/Login");
             }
-
-            // Только Admin
 
             if (HttpContext.Session.GetString("UserRole") != "Admin")
             {
@@ -41,9 +39,11 @@ namespace сайт_курсач.Pages.Reports
 
             MastersCount = _context.Masters.Count();
 
-            ServicesCount = _context.Services.Count();
-
             AppointmentsCount = _context.Appointments.Count();
+
+            PaymentsCount = _context.Payments.Count();
+
+            TotalIncome = _context.Payments.Sum(p => p.Amount);
 
             return Page();
         }
