@@ -102,7 +102,7 @@ namespace сайт_курсач.Pages.Booking
                 "Name");
 
             Masters = new SelectList(
-                _context.Masters.ToList(),
+                _context.Masters.ToList(), //
                 "Id",
                 "FirstName");
         }

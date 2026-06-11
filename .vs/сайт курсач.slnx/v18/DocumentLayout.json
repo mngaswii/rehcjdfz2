@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE80EFC9-4DBB-A4E4-5295-E1C9735FCA79}|\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447.csproj|d:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\pages\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE80EFC9-4DBB-A4E4-5295-E1C9735FCA79}|\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447.csproj|solutionrelative:\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\pages\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE80EFC9-4DBB-A4E4-5295-E1C9735FCA79}|\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447.csproj|d:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\pages\\booking\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE80EFC9-4DBB-A4E4-5295-E1C9735FCA79}|\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447.csproj|solutionrelative:\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\pages\\booking\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE80EFC9-4DBB-A4E4-5295-E1C9735FCA79}|\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447.csproj|d:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\pages\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE80EFC9-4DBB-A4E4-5295-E1C9735FCA79}|\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447.csproj|solutionrelative:\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\pages\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE80EFC9-4DBB-A4E4-5295-E1C9735FCA79}|\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447.csproj|d:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\pages\\payments\\fakepayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -133,7 +133,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -161,8 +161,7 @@
               "RelativeToolTip": "\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Payments\\FakePayment.cshtml.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAkwEEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T19:56:35.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T19:56:35.55Z"
             },
             {
               "$type": "Document",
@@ -186,8 +185,7 @@
               "RelativeToolTip": "\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Payments\\FakePayment.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAwwCkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-07T19:56:25.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T19:56:25.374Z"
             },
             {
               "$type": "Document",
@@ -239,26 +237,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml",
               "RelativeDocumentMoniker": "\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml",
               "ToolTip": "D:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml",
               "RelativeToolTip": "\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwEIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwEIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-01T13:45:29.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "D:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml.cs",
               "ToolTip": "D:\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml.cs",
               "RelativeToolTip": "\u0441\u0430\u0439\u0442 \u043A\u0443\u0440\u0441\u0430\u0447\\Pages\\Booking\\Create.cshtml.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwG0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T13:50:11.887Z",
               "EditorCaption": ""
