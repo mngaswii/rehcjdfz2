@@ -58,9 +58,7 @@ namespace сайт_курсач.Pages.Payments
             _context.Payments.Add(payment);
             _context.SaveChanges();
 
-            TempData["Success"] = "Оплата прошла успешно!";
-
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Payments/Success");
         }
     }
 }                           

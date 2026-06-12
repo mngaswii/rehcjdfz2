@@ -1,19 +1,27 @@
 ﻿@page
 
+@{
+    ViewData["Title"] = "Оплата завершена";
+}
+
 <div class="text-center mt-5">
 
-    <h1 class="text-success">
-        Оплата прошла успешно!
+    <h1 class="text-success mb-3">
+        ✓ Оплата успешно выполнена
     </h1>
 
+    <p class="fs-5">
+        Благодарим вас за выбор салона красоты LOFT Beauty.
+    </p>
+
     <p>
-        Спасибо за запись в LOFT Beauty.
+        Ваша запись подтверждена. Ждём вас в назначенное время!
     </p>
 
     <a asp-page="/Index"
-       class="btn btn-primary">
+       class="btn btn-primary mt-3">
 
-        На главную
+        Вернуться на главную
 
     </a>
 

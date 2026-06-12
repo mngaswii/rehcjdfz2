@@ -2,25 +2,29 @@
 @model сайт_курсач.Pages.Payments.FakePaymentModel
 
 @{
-    ViewData["Title"] = "Оплата";
+    ViewData["Title"] = "Подтверждение оплаты";
 }
 
 <div class="container">
 
-    <div class="card shadow p-4 mt-5">
+    <div class="card shadow-lg p-4 mt-5">
 
-        <h2 class="mb-4">
-            Оплата услуги
+        <h2 class="mb-4 text-center">
+            Подтверждение оплаты
         </h2>
 
         <p>
-            Номер записи:
-            <strong>@Model.AppointmentId</strong>
+            <strong>Номер записи:</strong>
+            @Model.AppointmentId
         </p>
 
         <p>
-            Сумма к оплате:
-            <strong>@Model.Amount ₽</strong>
+            <strong>Стоимость услуги:</strong>
+            @Model.Amount ₽
+        </p>
+
+        <p class="text-muted">
+            Для учебного проекта используется имитация оплаты.
         </p>
 
         <form method="post">
@@ -29,9 +33,9 @@
                    asp-for="AppointmentId" />
 
             <button type="submit"
-                    class="btn btn-success">
+                    class="btn btn-success w-100">
 
-                Оплатить
+                Подтвердить оплату
 
             </button>
 
